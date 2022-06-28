@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int arr[100][100],j,i,max=0,sum=0,n,m;
+    int n,arr[100][100],sum=0,i,j,m,max=0;
     scanf("%d%d",&n,&m);
     for(i=0;i<n;i++)
     {
@@ -15,7 +15,7 @@ int main()
         sum=0;
         for(j=0;j<m;j++)
         {
-            sum=sum+arr[i][j];
+            sum+=arr[i][j];
         }
         if(sum>max)
         {
@@ -23,4 +23,4 @@ int main()
         }
     }
     printf("%d",max);
-}
+ }
