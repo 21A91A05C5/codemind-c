@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,arr[100],k=0;
+    int n,arr[100],k,i,s=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -11,10 +11,10 @@ int main()
     {
         if(arr[i]%2==0)
         {
-            k++;
+            s++;
         }
     }
-    if(k==n)
+    if(s==n)
     {
         printf("True");
     }
