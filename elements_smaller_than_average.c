@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,arr[100],sum=0,avg,c=0;
+    int n,arr[100],i,sum=0,avg,c=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
