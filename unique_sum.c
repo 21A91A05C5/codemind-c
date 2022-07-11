@@ -16,13 +16,12 @@ int main()
             {
                 c++;
             }
-            
         }
         if(c==1)
         {
-            sum=sum+arr[i];
+            sum+=arr[i];
         }
-
     }
     printf("%d",sum);
+    
 }
